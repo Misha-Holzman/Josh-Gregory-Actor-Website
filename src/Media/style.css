@@ -1,0 +1,58 @@
+.media-main-container {
+  margin: 0 auto;
+}
+
+.media-content-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 95%;
+  padding-top: 8%;
+  margin-bottom: 10%;
+  margin: 0 auto;
+}
+
+.media-tab-imgs-of-josh {
+  height: 300px;
+  margin: 0% 3% 10% 3%;
+  -webkit-box-shadow: 0px 2px 31px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 31px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 31px -3px rgba(0,0,0,0.75);
+  transition: .3s ease-in-out;
+}
+
+.media-tab-imgs-of-josh-small {
+  height: 300px;
+  margin: 0% 3% 10% 3%;
+  -webkit-box-shadow: 0px 2px 31px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 31px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 31px -3px rgba(0,0,0,0.75);
+  transition: .3s ease-in-out;
+}
+
+.media-header-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  width: 8.5%;
+  margin: 0 auto;
+  padding-top: 5%;
+  text-align: center;
+  color: black;
+}
+
+.media-tab-imgs-of-josh:hover {
+  transform: scale(1.2);
+}
+.media-tab-imgs-of-josh-small:hover {
+  transform: scale(1.7);
+}
+
+.featured-WWE-video-media {
+  width: 800px;
+  height: 555px;
+  -webkit-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75);
+  margin-bottom: 5%;
+}

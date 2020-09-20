@@ -1,0 +1,154 @@
+.home-page-main-container {
+  height: 1300px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+
+.home-page-content-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://i.imgur.com/jdMcQXW.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 47% 50%;
+  background-size: 100% 100%;
+  padding-bottom: 4%;
+}
+
+.homepage-img-of-josh {
+  height: 465px;
+  border-radius: 4px;
+  -webkit-box-shadow: 6px 6px 52px -1px rgb(113,209,189);
+  -moz-box-shadow: 6px 6px 52px -1px rgb(113,209,189);
+  box-shadow: 6px 6px 52px -1px rgb(113,209,189);
+  z-index: 4;
+}
+
+.homepage-alternate-background-color {
+  /* background-image: url('https://i.imgur.com/AH09luV.png'); */
+  margin: 0 auto;
+  margin-top: 15%;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 6%;
+}
+
+.h1-says-actor {
+  color:rgb(122,250,227);
+}
+
+.video-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 4%;
+  border-bottom: 2px solid black;
+}
+
+.featured-WWE-video {
+  width: 800px;
+  height: 555px;
+  -webkit-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 18px -5px rgba(0,0,0,0.75);
+}
+
+.featured-WWE-video-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-bottom: 4%;
+  text-align: center;
+  width: 65%;
+  margin-top: 2%;
+}
+
+
+
+#arrow-link {
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: -2.5%;
+}
+
+.arrow {
+  height: 37px;
+  -webkit-animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+  animation: shake-vertical 18s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+
+
+@-webkit-keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  80% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  90% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+}
+@keyframes shake-vertical {
+  0%,
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  80% {
+    -webkit-transform: translateY(3px);
+            transform: translateY(3px);
+  }
+  90% {
+        -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+  }
+}
+
+
+
+

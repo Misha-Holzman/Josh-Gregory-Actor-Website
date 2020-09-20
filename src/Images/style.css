@@ -1,0 +1,82 @@
+.images-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-content-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.images-tab-imgs-of-josh {
+  height: 300px;
+  margin: 0% 3% 6% 3%;
+  -webkit-box-shadow: 0px 2px 31px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 31px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 31px -3px rgba(0,0,0,0.75);
+  transition: .3s ease-in-out;
+}
+
+.headshots-header-text {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 800;
+  font-size: 30px;
+  width: 15%;
+  text-align: center;
+  padding-top: 1%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.images-tab-imgs-of-josh:hover {
+  transform: scale(2);
+}
+
+.headshots-giving-credit-text {
+  text-decoration: none;
+  color: black;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  
+}
+
+.headshots-credit-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 90%;
+  margin-bottom: 4%;
+}
+
+.headshots-giving-credit-text {
+  transform-origin: center; 
+  text-align: center;
+}
+
+.headshots-giving-credit-text .link-to-headshot-guy {
+  transition: all .3s linear;
+  display: inline;
+  font-size: 18px;
+  line-height: 45px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  background: linear-gradient(to right, #00d1b1 0%, #278fc6 98%);
+  background-size: 0px 2px;
+  background-repeat: no-repeat;
+  background-position: center 85%;
+  text-shadow: 0;
+}
+
+.headshots-giving-credit-text .link-to-headshot-guy:hover {
+  background-size: 100% 2px;
+  text-shadow: 0 2.5px 4px rgba(0, 0, 0, 0.5);
+}
