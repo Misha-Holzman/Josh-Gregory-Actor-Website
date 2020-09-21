@@ -17,7 +17,7 @@ class Homepage extends Component {
           />
         </a>
         <div className='homepage-alternate-background-color'>
-          <h3 className='video-text' id='real-jump-link'>Featured Work</h3>
+          <h3 className='video-text' id='real-jump-link'>Recent Projects</h3>
           <iframe
             title='wwe-video-homepage'
             src='https://www.youtube.com/embed/1TRt-KTi0R0'
@@ -26,8 +26,7 @@ class Homepage extends Component {
             allowfullscreen
             className='featured-WWE-video' />
           <p className='featured-WWE-video-text'>
-            Maybe next time Mick Foley will keep his toenails to himself?
-            Keep calm at the office and Brawl Without Limits when WWE 2K Battlegrounds lands on consoles on September 18th!
+            WWE 2K Battlegrounds commercial featured with Mick Foley
           </p>
           {/* <ReactPlayer
             url='https://vimeo.com/318350985' 
