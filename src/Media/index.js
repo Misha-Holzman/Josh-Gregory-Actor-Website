@@ -8,6 +8,7 @@ class Media extends Component {
         <h1 className='media-header-text'>Media</h1>
         <div className='media-content-container'>
           <iframe
+            title='wwe-video'
             src='https://www.youtube.com/embed/1TRt-KTi0R0'
             frameborder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'

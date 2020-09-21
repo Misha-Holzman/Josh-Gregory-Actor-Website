@@ -10,12 +10,12 @@ class Contact extends Component {
         <div className='social-container'>
           <ul className='social-icons'>
             <li className='li-social'>
-              <a href='https://www.instagram.com/josh.michael.gregory/' target='_blank' className='a-social' rel='noopener' >
+              <a href='https://www.instagram.com/josh.michael.gregory/' target='_blank' rel='noopener noreferrer' className='a-social' >
                 <i className='fa fa-instagram' />
               </a>
             </li>
             <li className='li-social'>
-              <a href='https://www.facebook.com/joshua.gregory.144' target='_blank' className='a-social' rel='noopener' >
+              <a href='https://www.facebook.com/joshua.gregory.144' target='_blank' rel='noopener noreferrer' className='a-social' >
                 <i className='fa fa-facebook' />
               </a>
             </li>

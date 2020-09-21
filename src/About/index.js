@@ -13,7 +13,7 @@ class About extends Component {
           <div className='about-text-container'>
             <p className='about-me-text'>
             I am a NYC based actor who hails from the finger lakes region of Upstate, NY. I am pursuing work in commercials, film, and theater. 
-            I am currently involved with multiple acting studios in NYC, and on my way to social media influencer after hitting 300 followers…please inquire about product advertising. 😉
+            I am currently involved with multiple acting studios in NYC, and on my way to social media influencer after hitting 300 followers…please inquire about product advertising. <span role="img" aria-label="emoji">😉<span />
             </p>
             <p className='about-me-text'>
             From the beginning, I knew that I wanted to be an actor. I was that odd 6 year old with a wild imagination, the one whom was quite often caught speaking dialogue to himself, 

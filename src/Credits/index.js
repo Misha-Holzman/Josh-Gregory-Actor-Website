@@ -21,12 +21,13 @@ class Credits extends Component {
             <li className='credits-vitals-li'><span className='credits-vitals-span'>Hair:</span> Brown</li>
             <li className='credits-vitals-li'><span className='credits-vitals-span'>Eyes:</span> Blue</li>
           </ul>
-          <h2 className='member-equity-text'>Member of Actors' Equity Association<img src='https://i.imgur.com/g75FFgi.png' className='members-equity-logo' /></h2>
+          <h2 className='member-equity-text'>Member of Actors' Equity Association<img src='https://i.imgur.com/g75FFgi.png' className='members-equity-logo' alt='' /></h2>
           <a href='#theatre' id='link'>
             <img
               src='https://i.imgur.com/T5f8v9i.png'
               height='30px'
               className='arrow'
+              alt=''
             />
           </a>
         </div>

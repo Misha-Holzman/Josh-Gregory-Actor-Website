@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 import './style.css'
 
 class Homepage extends Component {
@@ -19,6 +19,7 @@ class Homepage extends Component {
         <div className='homepage-alternate-background-color'>
           <h3 className='video-text' id='real-jump-link'>Featured Work</h3>
           <iframe
+            title='wwe-video-homepage'
             src='https://www.youtube.com/embed/1TRt-KTi0R0'
             frameborder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 import './style.css'
 
 class Reel extends Component {
@@ -9,12 +9,13 @@ class Reel extends Component {
         <div className='reel-content-container-div'>
           <h3 className='reel-title' id='real-jump-link'>Reel</h3>
           <iframe
+            title='reel'
             src='https://player.vimeo.com/video/285012728'
             width='640'
             height='360'
             frameborder='0'
             allow='autoplay; fullscreen'
-            allowfullscreen 
+            allowfullscreen
             className='reel-video'
           />
         </div>
